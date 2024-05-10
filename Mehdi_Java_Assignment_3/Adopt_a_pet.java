@@ -89,7 +89,7 @@ public class Adopt_a_pet {
       System.out.println("What is your email? ");
       email = input.nextLine();
       System.out.println("What is your phone? ");
-      phone = input.nextLine(); // خواندن شماره تلفن به عنوان رشته
+      phone = input.nextLine(); // Read phone number as string
   
       user = new User(name, email, phone);
   }
