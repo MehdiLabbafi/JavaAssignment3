@@ -5,7 +5,7 @@ public class User {
     private String email;
     private String phone;
     private String appointmentDay;
-    private String appointmentTime; // اضافه کردن فیلد برای ساعت ملاقات
+    private String appointmentTime; // Add field for appointment time
 
     public User(String name, String email, String phone) {
         this.name = name;
